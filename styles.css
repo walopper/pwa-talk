@@ -1,0 +1,42 @@
+body {
+    margin: 10px;
+    background: #f7f7f7;
+}
+
+* {
+    font-family: Helvetica;
+}
+
+h1 {
+    color: #555
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.photoList {
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .06);
+    cursor: pointer;
+    display: inline-block;
+    height: 200px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: top;
+    width: 250px;
+}
+
+.photoList div {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.photoList div img {
+    height: 150px;
+    width: 100%;
+}
