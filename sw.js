@@ -40,6 +40,10 @@ self.addEventListener('fetch', function (event) {
 //                     return fetch(event.request)
 //                         .then(function (res) {
 
+//                             // if(event.request.url === 'https://via.placeholder.com/150/771796'){
+//                             //     return res;
+//                             // }
+
 //                             return caches.open(CACHE_DYNAMIC)
 //                                 .then(function (cache) {
 
